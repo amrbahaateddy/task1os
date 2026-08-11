@@ -1,0 +1,2 @@
+This line was written using redirection 
+This line was appended using redirection 

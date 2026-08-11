@@ -1,0 +1,14 @@
+echo --- Starting Shell Test ---
+echo Testing the dir command:
+dir
+echo Testing setting an environment variable...
+set TEST_VAR HELLO_WORLD
+echo Testing output redirection...
+echo This line was written using redirection > output.txt
+echo This line was appended using redirection >> output.txt
+echo Testing an external command (cat) to read the file:
+cat output.txt
+echo Testing background execution...
+sleep 2 &
+echo --- Test Complete! Exiting... ---
+quit
